@@ -11,3 +11,7 @@ name="ひつじ仙人さん"
 puts message + name
 number1=10
 puts number 1 + number 2
+name = "ラーメン"
+puts "お昼は#{name}が食べたい"
+names =[suzuki,sasaki,tanaka]
+puts "私の名前は #{name [2]}" です。
