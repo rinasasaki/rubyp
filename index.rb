@@ -158,3 +158,35 @@
   #変数languagesを出力
   puts languages
   puts "----"
+
+  puts "----"
+  languages = ["日本語", "英語", "スペイン語"]
+  #インデックス番号が１の要素を出力してください
+  puts languages[1]
+  #インデックス番号が０の要素を使って「ooを話せます」となるように出力
+  puts "#{languages[0]}を話せます"
+  puts "----"
+
+#ruby progate chapter3#
+  puts "----"
+  def introduce 
+    puts "こんにちは"
+    puts "私はにんじゃわんこです"
+    puts "14歳です"
+  end
+  puts "-----自己紹介-----"
+  #introduceメソッドを呼び出してください
+  introduce
+  puts "----"
+
+  puts "----"
+  #print_infoメソッドを定義
+  def print_info
+    puts "わんこでんきへようこそ！"
+    puts "今日はヘッドホンがセール中です！"
+  end
+  #print_infoメソッドを呼び出す
+  print_info
+  puts "----"
+
+
